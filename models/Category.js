@@ -12,7 +12,7 @@ Category.init(
       primaryKey: true,
       autoIncrement: true
     },
-    comment_text: {
+    category_name: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
